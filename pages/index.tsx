@@ -84,7 +84,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `Hello! I am Lara, an AI assistant to a Dietician. Although I am not a registered dietician, I provide advice that is highly recognized in the dietician industry. How may I help you?`
       }
     ]);
   }, []);
@@ -95,7 +95,7 @@ export default function Home() {
         <title>Chatbot UI</title>
         <meta
           name="description"
-          content="A simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS."
+          content="Lara, an AI Dietician"
         />
         <meta
           name="viewport"
